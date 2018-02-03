@@ -1,9 +1,10 @@
-var selectedTab = 'details';
+// scripts.js
 
-if (selectedTab == 'details') {
-    console.log('You selected details tab');
-} else if (selectedTab == 'comments') {
-    console.log('You selected comments tab');
-} else {
-    console.log('You selected product description tab');
+var a = prompt ("wartość a");
+var b = prompt ("wartość b");
+var value = (a*a)-(2*a*b)-(b*b);
+console.log('wartość działania (a*a)-(2*a*b)(b*b) dla argumentów a:' + a + ' oraz b: ' + b + ' wynosi: ' + value);
+
+if (value == 0){
+	console.log("wynik jest równy 0");
 }
